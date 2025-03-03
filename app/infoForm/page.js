@@ -152,7 +152,7 @@ export default function Form() {
                       onClick={() => setModalIsOpen(false)}/>
                     </div>
                     <div className="border-y-2 rounded-t-2xl rounded-b-2xl   w-full max-w-[500] flex flex-col text-center border-black mb-16 py-10">
-                      <a href='http://localhost:3000/' ><h1 className='text-3xl font-bold  tex-2xl text-gray-800'>HOME</h1></a>
+                      <a href='http://sleeman-ali-ibrahimi.vercel.app/' ><h1 className='text-3xl font-bold  tex-2xl text-gray-800'>HOME</h1></a>
                   </div>
               </motion.div>
             </div> )}

@@ -9,7 +9,7 @@ const translations = {
         yearError:  'MAX VALUE YEAR IS 2010',
         yearError1: 'MIN VALUE YEAR IS 1990',   
         note:       'YES, I AM OF LEGAL DRINKING AGE',
-        letsGo:     "LET'S GO",
+        letsGo:     "GO",
         p1:         'You must be legal drinking age to enter this experience. Do not share this content with minors.',
         p2:         'Pins must be redeemed by or before October 23rd, 2022. Available while supplies last. View contest rules for details.',
         P3:         'Privacy policy',

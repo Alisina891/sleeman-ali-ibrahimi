@@ -5,12 +5,11 @@ import { LanguageContext } from "./context/LanguageContext";
 import translation from "./constants/translations";
 import { useRouter } from "next/navigation";
 
-// تعریف تایپ برای زبان
 type Language = 'en' | 'fr';
 
 export default function Home() {
   const router = useRouter();
-  // فرض می‌کنیم کانتکست دارای نوع Language می‌باشد
+  /
   const { language, changeLanguage } = useContext(LanguageContext) as { language: Language, changeLanguage: (lang: Language) => void };
 
   const [day, setDay] = useState('');
@@ -225,7 +224,7 @@ export default function Home() {
         </div>
         <div className="w-full flex flex-col items-center justify-center mt-16 px-3">
           <p className="text-start w-full text-xs font-extrabold uppercase">{translation[language].note}</p>
-          <button className="flex w-full max-w-[350px] justify-center text-center text-white bg-red-600 rounded-sm px-32 py-3 text-lg font-bold"
+          <button className="flex w-full max-w-[350px] justify-center text-center text-white bg-red-600 rounded-sm py-3 text-lg font-bold"
             onClick={handleSubmit}>{translation[language].letsGo}</button>
         </div>
         <div className="w-full flex flex-col text-center text-sm px-3 mt-10">

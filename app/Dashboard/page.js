@@ -226,7 +226,7 @@ export default function Page() {
         alt='review'
         width={25}
         height={25}
-        className='-mt-20 mb-5'
+        className=' mb-5'
         />
      </div>
 
@@ -290,7 +290,7 @@ export default function Page() {
                 onClick={() => setModalIsOpen(false)}/>
                </div>
                <div className="border-y-2 rounded-t-2xl rounded-b-2xl   w-full max-w-[500] flex flex-col text-center border-black mb-16 py-10">
-                <a href='http://localhost:3000/' ><h1 className='text-3xl font-bold  tex-2xl text-gray-800'>{translations[language].menu}</h1></a>
+                <a href='https://sleeman-ali-ibrahimi.vercel.app/' ><h1 className='text-3xl font-bold  tex-2xl text-gray-800'>{translations[language].menu}</h1></a>
       </div>
             </motion.div>
         </div> )}
